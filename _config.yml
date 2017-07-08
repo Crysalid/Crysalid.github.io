@@ -1,0 +1,106 @@
+# Site settings
+title: Wxn Blog
+SEOTitle: 王星豪的博客 | Wxn Blog
+header-img: img/home-bg.jpg
+email: 874600576@qq.com
+description: "花若盛开　清风自来"
+keyword: "机器学习 计算机图形学 数学 影评 随笔"
+url: ""              # your host, for absolute URL
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+# SNS settings
+RSS: false
+weibo_username:     5937875763
+zhihu_username:     wang-xing-19-73
+github_username:    crysalid
+#twitter_username:   chrysalid
+facebook_username:  chrysalid
+# linkedin_username:  firstname-lastname-idxxxx
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: wxnblog
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+ga_track_id: 'UA-93462872-1'            # Format: UA-xxxxxx-xx
+ga_domain: wxnblog.site
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "喜欢用有趣的数学来做有趣的应用的数学渣、心理学爱好者、游戏爱好者。愿做一名浪漫的程序汪～"
+sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        #title: "Hux Blog",
+        #href: "http://huangxuan.me"
+    },{
+       # title: "Foo",
+       # href: "#"
+    },{
+       # title: "Bar",
+        #href: "#"
+    },{
+       # title: "Example Friends",
+       # href: "#"
+    },{
+       # title: "It helps SEO",
+       # href: "#"
+    }
+]
